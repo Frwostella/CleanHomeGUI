@@ -1,0 +1,31 @@
+teleport-delay-seconds: 5
+cooldown-seconds: 30
+
+gui:
+    title: "&8Homes"
+    size: 27
+    home-name-format: "&9{name}"
+    empty-home-name-format: "&cHome {number} &7(Empty)"
+    delete-button-name: "&cDelete {name}"
+    rename-instructions:
+        - "&7Right-click to rename"
+        - "&7Left-click to teleport"
+    empty-lore:
+        - "&7Click to set this home."
+        - "&7Right-click to rename."
+    delete-lore:
+        - "&7Click to delete this home."
+
+default-home-names:
+    1: "Home 1"
+    2: "Home 2"
+    3: "Home 3"
+    
+database:
+    host: localhost
+    port: 3306
+    database: cleanhomegui
+    username: root
+    password: ""
+
+homes: {}

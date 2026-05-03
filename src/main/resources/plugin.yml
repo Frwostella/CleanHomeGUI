@@ -1,0 +1,21 @@
+name: CleanHomeGUI
+version: 1.1.0
+main: jre.frwostella.cleanHomeGUI.HomeGUI
+api-version: '1.21'
+author: Frwostella
+
+commands:
+  home:
+    description: Open home GUI, teleport, reload, backups, or restore homes
+  sethome:
+    description: Set a home
+  delhome:
+    description: Delete a home
+
+permissions:
+  cleanhomegui.reload:
+    description: Allows /home reload
+    default: op
+  cleanhomegui.backup:
+    description: Allows /home backups, history, restore, restoredb
+    default: op
