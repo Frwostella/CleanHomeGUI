@@ -92,4 +92,5 @@ Delete the plugin folder once to regenerate configs.
 - Works even if MySQL fails (YAML backup fallback)  
 - Designed to be simple, fast, and reliable  
 - Easy setup
+- Customizable
 ---
